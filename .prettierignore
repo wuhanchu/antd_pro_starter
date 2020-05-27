@@ -8,7 +8,7 @@ package.json
 .eslintignore
 *.png
 *.toml
-docker
+dockerz
 .editorconfig
 Dockerfile*
 .gitignore
@@ -17,3 +17,6 @@ LICENSE
 .eslintcache
 *.lock
 yarn-error.log
+.history
+CNAME
+/build

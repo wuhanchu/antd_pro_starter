@@ -1,16 +1,44 @@
+let BASE_PATH = process.env.BASE_PATH;
+if (!BASE_PATH) {
+    BASE_PATH = '';
+}
+
 export default {
-    navTheme: "dark",
-    primaryColor: "#1890FF",
-    layout: "sidemenu",
-    contentWidth: "Fluid",
+    navTheme: 'dark',
+
+    // 拂晓蓝
+    primaryColor: '#1890ff',
+    layout: 'topmenu',
+    contentWidth: 'Fluid',
     fixedHeader: false,
     autoHideHeader: false,
     fixSiderbar: false,
     colorWeak: false,
     menu: {
-        locale: true
+        locale: true,
     },
-    title: "Ant Design Pro",
     pwa: false,
-    iconfontUrl: ""
-}
+    iconfontUrl: '',
+
+    // basic info
+    copyright: 'wuhanchu', // 版本信息
+    title: 'antd pro starter',
+
+    // oauth config
+    product_key: 'antd_design_pro_starter',
+    apiVersion: BASE_PATH + '/api/',
+    
+    oauth: {
+
+        // todo 需要增加 oauth 认证
+        // clientId: 'yAl9PO9sA4NKYhcrXfAOXxlD',
+        // clientSecret: 'DarmrCkeA04rV8t8vA4mTXhMvn7nEUweE07JgvWhEVpGsukK',
+        // accessTokenUri: BASE_PATH + '/api/user_auth/auth/token',
+        // scopes: 'profile',
+    },
+
+    // others
+    DATE_FORMAT: 'YYYY-MM-DD',
+    DATE_TIME_FORMAT: 'YYYY-MM-DD HH:mm:ss',
+    BASE_PATH,
+};

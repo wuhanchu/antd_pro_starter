@@ -1,6 +1,5 @@
+const fabric = require('@umijs/fabric');
+
 module.exports = {
-    eslintIntegration: true,
-    stylelintIntegration: true,
-    tabWidth: 4,
-    semi: false
-}
+    ...fabric.prettier,
+};

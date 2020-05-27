@@ -7,7 +7,7 @@
 _roadhog-api-doc
 
 # production
-# /dist
+/dist
 /.vscode
 
 # misc
@@ -17,7 +17,8 @@ yarn-error.log
 
 /coverage
 .idea
-
+yarn.lock
+package-lock.json
 *bak
 .vscode
 
@@ -35,7 +36,5 @@ functions/*
 screenshot
 .firebase
 .eslintcache
-.outter
 
 build
-dist

@@ -1,4 +1,5 @@
-import { message, Collapse, Icon } from "antd"
+import { CloseCircleOutlined } from '@ant-design/icons';
+import { message, Collapse } from "antd";
 
 const { Panel } = Collapse
 
@@ -16,7 +17,7 @@ const showError = error => {
                     bordered={false}
                     expandIconPosition="left"
                     expandIcon={() => (
-                        <Icon style={{ color: "red" }} type="close-circle" />
+                        <CloseCircleOutlined style={{ color: "red" }} />
                     )}
                 >
                     <Panel
