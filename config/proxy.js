@@ -8,15 +8,15 @@
 // todo 需要修改一下 后台代理
 export default {
     dev: {
-        "/api/user_auth": {
-            target: 'http://server.aiknown.cn:32024',
+        '/api/user_auth': {
+            target: 'https://preview.pro.ant.design',
             changeOrigin: true,
-            pathRewrite: { "^/api/user_auth": "" },
+            pathRewrite: { '^/api/user_auth': '' },
         },
         '/api': {
             target: 'https://preview.pro.ant.design',
             changeOrigin: true,
-            pathRewrite: { "^/api": "" }
+            pathRewrite: { '^/api': '' },
         },
     },
     test: {

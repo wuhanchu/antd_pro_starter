@@ -31,10 +31,7 @@ export default {
     oauth: {
 
         // todo 需要增加 oauth 认证
-        // clientId: 'yAl9PO9sA4NKYhcrXfAOXxlD',
-        // clientSecret: 'DarmrCkeA04rV8t8vA4mTXhMvn7nEUweE07JgvWhEVpGsukK',
-        // accessTokenUri: BASE_PATH + '/api/user_auth/auth/token',
-        // scopes: 'profile',
+
     },
 
     // others
