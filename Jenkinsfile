@@ -32,7 +32,7 @@ pipeline {
                         docker {
                             reuseNode true
                             alwaysPull true
-                            image 'server.aiknown.cn:31003/z_ai_demo/node:lts-alpine'
+                            image 'server.aiknown.cn:31003/z_ai_frame/node:antd_4'
                             registryUrl 'https://server.aiknown.cn:31003'
                             registryCredentialsId 'harbor'
                             args '-v jenkins:/var/jenkins_home -v jenkins_yarn_cache:/usr/local/share/.cache/yarn'

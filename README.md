@@ -106,3 +106,6 @@ docker run --rm  -p 8000:80 --name antd_design_pro_starter -e SERVER_URL='http:/
 
 -   proxy.js： 配置一下后端接口的代理
 -   defaultSettings.js：配置一下 Oauth 信息。
+
+
+## jenkins 依赖镜像编译

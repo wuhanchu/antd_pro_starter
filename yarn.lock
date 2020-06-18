@@ -7403,6 +7403,13 @@ eslint-plugin-markdown@^1.0.0:
     remark-parse "^5.0.0"
     unified "^6.1.2"
 
+eslint-plugin-prettier@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.npm.taobao.org/eslint-plugin-prettier/download/eslint-plugin-prettier-3.1.4.tgz?cache=0&sync_timestamp=1592177899658&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint-plugin-prettier%2Fdownload%2Feslint-plugin-prettier-3.1.4.tgz#168ab43154e2ea57db992a2cd097c828171f75c2"
+  integrity sha1-Foq0MVTi6lfbmSos0JfIKBcfdcI=
+  dependencies:
+    prettier-linter-helpers "^1.0.0"
+
 eslint-plugin-promise@^4.1.1:
   version "4.2.1"
   resolved "https://registry.npm.taobao.org/eslint-plugin-promise/download/eslint-plugin-promise-4.2.1.tgz#845fd8b2260ad8f82564c1222fce44ad71d9418a"
@@ -7959,6 +7966,11 @@ fast-deep-equal@3.1.1, fast-deep-equal@^3.1.1:
   version "3.1.1"
   resolved "https://registry.npm.taobao.org/fast-deep-equal/download/fast-deep-equal-3.1.1.tgz#545145077c501491e33b15ec408c294376e94ae4"
   integrity sha1-VFFFB3xQFJHjOxXsQIwpQ3bpSuQ=
+
+fast-diff@^1.1.2:
+  version "1.2.0"
+  resolved "https://registry.npm.taobao.org/fast-diff/download/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
+  integrity sha1-c+4RmC2Gyq95WYKNUZz+kn+sXwM=
 
 fast-glob@^2.0.2, fast-glob@^2.2.6:
   version "2.2.7"
@@ -9117,9 +9129,9 @@ humanize-url@^1.0.0:
     normalize-url "^1.0.0"
     strip-url-auth "^1.0.0"
 
-husky@^4.0.7:
+husky@^4.2.5:
   version "4.2.5"
-  resolved "https://registry.npm.taobao.org/husky/download/husky-4.2.5.tgz#2b4f7622673a71579f901d9885ed448394b5fa36"
+  resolved "https://registry.npm.taobao.org/husky/download/husky-4.2.5.tgz?cache=0&sync_timestamp=1586468101349&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhusky%2Fdownload%2Fhusky-4.2.5.tgz#2b4f7622673a71579f901d9885ed448394b5fa36"
   integrity sha1-K092Imc6cVefkB2Yhe1Eg5S1+jY=
   dependencies:
     chalk "^4.0.0"
@@ -14212,6 +14224,13 @@ prepend-http@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/prepend-http/download/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
+
+prettier-linter-helpers@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/prettier-linter-helpers/download/prettier-linter-helpers-1.0.0.tgz#d23d41fe1375646de2d0104d3454a3008802cf7b"
+  integrity sha1-0j1B/hN1ZG3i0BBNNFSjAIgCz3s=
+  dependencies:
+    fast-diff "^1.1.2"
 
 prettier@1.15.3:
   version "1.15.3"
