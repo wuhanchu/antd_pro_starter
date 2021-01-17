@@ -1,13 +1,15 @@
 // https://umijs.org/config/
 import { defineConfig } from 'umi';
-import defaultSettings from './defaultSettings';
 import proxy from './proxy';
 import routes from './router.config';
+import setting from './settting';
 
 const { REACT_APP_ENV } = process.env;
 
+//获取 setting
+
 let extend = {};
-let BASE_PATH = defaultSettings.BASE_PATH;
+let BASE_PATH = setting.BASE_PATH;
 if (BASE_PATH) {
     extend = {
         ...extend,
@@ -43,10 +45,11 @@ let config = defineConfig({
     // Theme for antd: https://ant.design/docs/react/customize-theme-cn
     theme: {
         // ...darkTheme,
-        'primary-color': defaultSettings.primaryColor,
+        'primary-color': setting.primaryColor,
     },
     define: {
-        CONFIG: defaultSettings,
+        CONFIG: setting,
+        SETTING: setting,
         BASE_PATH: BASE_PATH,
     },
 

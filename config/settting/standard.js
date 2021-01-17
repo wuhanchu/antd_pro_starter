@@ -4,8 +4,6 @@ if (!BASE_PATH) {
 }
 
 export default {
-    navTheme: 'dark',
-
     // 拂晓蓝
     primaryColor: '#1890ff',
     layout: 'topmenu',
@@ -27,11 +25,9 @@ export default {
     // oauth config
     product_key: 'antd_design_pro_starter',
     apiVersion: BASE_PATH + '/api/',
-    
+
     oauth: {
-
         // todo 需要增加 oauth 认证
-
     },
 
     // others
