@@ -80,6 +80,7 @@ npm test
 
 ```docker
 docker build  -t antd_design_pro_starter --file docker/Dockerfile.hub  .
+docker build  -t server.aiknown.cn:31003/z_ai_frame/node:antd_4 --file docker/Dockerfile.node  . && docker push server.aiknown.cn:31003/z_ai_frame/node:antd_4
 ```
 
 ### 运行容器
