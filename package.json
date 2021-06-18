@@ -62,7 +62,7 @@
         "client-oauth2": "4.3.3",
         "dva-model-extend": "^0.1.2",
         "file-saver": "2.0.5",
-        "lodash": "4.17.20",
+        "lodash": "4.17.21",
         "moment": "2.29.1",
         "nzh": "^1.0.4",
         "omit.js": "2.0.2",
